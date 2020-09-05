@@ -1,4 +1,4 @@
-class JsonTools():
+class JsonTools:
     @staticmethod
     def save(dest: str, content: dict):
         import json
