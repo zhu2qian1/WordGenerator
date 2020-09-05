@@ -58,7 +58,9 @@
     },
     "parameters": {},
     "phonetic_rules": {
+        "min_vcluster": 1,
         "max_vcluster": 1,
+        "min_ccluster": 1,
         "max_ccluster": 2
     }
 }
