@@ -1,0 +1,38 @@
+{
+    "vowels": {
+        "a": [
+            "low",
+            "center",
+            "unrounded"
+        ],
+        "i": [
+            "high",
+            "front",
+            "unrounded"
+        ],
+        "u": [
+            "high",
+            "back",
+            "rounded"
+        ]
+    },
+    "consonants": {
+        "p": [
+            "voiceless",
+            "bilabial",
+            "plosive"
+        ],
+        "t": [
+            "voiceless",
+            "dental",
+            "plosive"
+        ],
+        "k": [
+            "voiceless",
+            "velar",
+            "plosive"
+        ]
+    },
+    "parameters": [],
+    "phonetic_rules": []
+}

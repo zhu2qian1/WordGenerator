@@ -1,0 +1,64 @@
+{
+    "vowels": {
+        "a": [
+            "low",
+            "center",
+            "unrounded"
+        ],
+        "e": [
+            "mid",
+            "front",
+            "unrounded"
+        ],
+        "i": [
+            "high",
+            "front",
+            "unrounded"
+        ],
+        "o": [
+            "mid",
+            "back",
+            "rounded"
+        ],
+        "u": [
+            "high",
+            "back",
+            "rounded"
+        ]
+    },
+    "consonants": {
+        "": [
+            null
+        ],
+        "p": [
+            "voiceless",
+            "bilabial",
+            "plosive"
+        ],
+        "t": [
+            "voiceless",
+            "dental",
+            "plosive"
+        ],
+        "k": [
+            "voiceless",
+            "velar",
+            "plosive"
+        ],
+        "r": [
+            "voiced",
+            "dental",
+            "trill"
+        ],
+        "l": [
+            "voiced",
+            "dental",
+            "lateral approximant"
+        ]
+    },
+    "parameters": {},
+    "phonetic_rules": {
+        "max_vcluster": 1,
+        "max_ccluster": 2
+    }
+}
