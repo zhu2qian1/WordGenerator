@@ -1,7 +1,7 @@
 class Constants:
-    lang_heb = r"./src/heb.json"
-    lang_porl = r"./src/porl.json"
-    porl = {
+    path_heb = r"./src/heb.json"
+    path_porl = r"./src/porl.json"
+    lang_porl = {
         "vowels": {
             "a": ["low", "center", "unrounded"],
             "e": ["mid", "front", "unrounded"],
