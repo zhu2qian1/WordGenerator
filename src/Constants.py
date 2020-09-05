@@ -1,17 +1,20 @@
-from JsonTools import JsonTools as jt
+from src.JsonTools import JsonTools as jt
 import sys
 
 
 class Constants:
-    path_heb = r"./src/heb.json"
-    path_porl = r"./src/porl.json"
+    heb_path = r"./src/heb.json"
+    porl_path = r"./src/porl.json"
     porl_data = {
         "vowels": {
             "a": ["low", "center", "unrounded", "short"],
+            "aa": ["low", "center", "unrounded", "long"],
             "e": ["mid", "front", "unrounded", "short"],
             "i": ["high", "front", "unrounded", "short"],
+            "ii": ["high", "front", "unrounded", "long"],
             "o": ["mid", "back", "rounded", "short"],
             "u": ["high", "back", "rounded", "short"],
+            "uu": ["high", "back", "rounded", "long"],
         },
         "consonants": {
             "": [None],
@@ -27,7 +30,9 @@ class Constants:
             "l": ["voiced", "dental", "lateral approximant"],
             "j": ["voiced", "palatal", "approximant"],
         },
-        "parameters": {},
+        "parameters": {
+            "absolute_open": False,
+        },
         "phonetic_rules": {
             "min_vcluster": 1,
             "max_vcluster": 1,
@@ -39,7 +44,7 @@ class Constants:
 
 if __name__ == "__main__":
     try:
-        if sys.argv[1] == "save":
-            jt.save(Constants.path_porl, Constants.porl_data)
+        if sys.argv[1] == "-s":
+            jt.save(Constants.porl_path, Constants.porl_data)
     except IndexError:
         pass
