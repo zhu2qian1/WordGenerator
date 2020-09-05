@@ -1,7 +1,7 @@
 class Language:
     """* requires a dictionary with keys named:
-    consonants, vowels, phonetic_rules, and parameters.
-if any of them are missing, it will raise an exception."""
+        consonants, vowels, phonetic_rules, and parameters.
+    if any of them are missing, it will raise an exception."""
     def __init__(self, data):
         self.__data = data.copy()
         self.__consonants = data["consonants"].copy()
