@@ -6,6 +6,12 @@
             "unrounded",
             "short"
         ],
+        "aa": [
+            "low",
+            "center",
+            "unrounded",
+            "long"
+        ],
         "e": [
             "mid",
             "front",
@@ -18,6 +24,12 @@
             "unrounded",
             "short"
         ],
+        "ii": [
+            "high",
+            "front",
+            "unrounded",
+            "long"
+        ],
         "o": [
             "mid",
             "back",
@@ -29,6 +41,12 @@
             "back",
             "rounded",
             "short"
+        ],
+        "uu": [
+            "high",
+            "back",
+            "rounded",
+            "long"
         ]
     },
     "consonants": {
