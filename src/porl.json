@@ -3,27 +3,32 @@
         "a": [
             "low",
             "center",
-            "unrounded"
+            "unrounded",
+            "short"
         ],
         "e": [
             "mid",
             "front",
-            "unrounded"
+            "unrounded",
+            "short"
         ],
         "i": [
             "high",
             "front",
-            "unrounded"
+            "unrounded",
+            "short"
         ],
         "o": [
             "mid",
             "back",
-            "rounded"
+            "rounded",
+            "short"
         ],
         "u": [
             "high",
             "back",
-            "rounded"
+            "rounded",
+            "short"
         ]
     },
     "consonants": {
@@ -40,10 +45,35 @@
             "dental",
             "plosive"
         ],
+        "s": [
+            "voiceless",
+            "dental",
+            "fricative"
+        ],
         "k": [
             "voiceless",
             "velar",
             "plosive"
+        ],
+        "h": [
+            "voiceless",
+            "glottal",
+            "fricative"
+        ],
+        "w": [
+            "voiced",
+            "bilabial",
+            "approximant"
+        ],
+        "m": [
+            "voiced",
+            "bilabial",
+            "nasal"
+        ],
+        "n": [
+            "voiced",
+            "dental",
+            "nasal"
         ],
         "r": [
             "voiced",
@@ -54,6 +84,11 @@
             "voiced",
             "dental",
             "lateral approximant"
+        ],
+        "j": [
+            "voiced",
+            "palatal",
+            "approximant"
         ]
     },
     "parameters": {},
