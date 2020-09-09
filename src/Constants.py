@@ -1,4 +1,3 @@
-from src.JsonTools import JsonTools as jt
 import sys
 
 
@@ -30,9 +29,7 @@ class Constants:
             "l": ["voiced", "dental", "lateral approximant"],
             "j": ["voiced", "palatal", "approximant"],
         },
-        "parameters": {
-            "absolute_open": False,
-        },
+        "parameters": {"absolute_open": False,},
         "phonetic_rules": {
             "min_vcluster": 1,
             "max_vcluster": 1,
@@ -40,11 +37,3 @@ class Constants:
             "max_ccluster": 2,
         },
     }
-
-
-if __name__ == "__main__":
-    try:
-        if sys.argv[1] == "-s":
-            jt.save(Constants.porl_path, Constants.porl_data)
-    except IndexError:
-        pass
