@@ -109,7 +109,9 @@
             "approximant"
         ]
     },
-    "parameters": {},
+    "parameters": {
+        "absolute_open": false
+    },
     "phonetic_rules": {
         "min_vcluster": 1,
         "max_vcluster": 1,
