@@ -2,6 +2,7 @@ class Language:
     """* requires a dictionary with keys named:
         consonants, vowels, phonetic_rules, and parameters.
     if any of them are missing, it will raise an exception."""
+
     def __init__(self, data):
         self.__data = data.copy()
         self.__consonants = data["consonants"].copy()
@@ -31,10 +32,14 @@ class Language:
 
     @property
     def vcluster_info(self):
-        return (self.__phonetic_rules["min_vcluster"],
-                self.__phonetic_rules["max_vcluster"])
+        return (
+            self.__phonetic_rules["min_vcluster"],
+            self.__phonetic_rules["max_vcluster"],
+        )
 
     @property
     def ccluster_info(self):
-        return (self.__phonetic_rules["min_ccluster"],
-                self.__phonetic_rules["max_ccluster"])
+        return (
+            self.__phonetic_rules["min_ccluster"],
+            self.__phonetic_rules["max_ccluster"],
+        )
