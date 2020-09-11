@@ -26,21 +26,25 @@ porl_data = {
         "j": ["voiced", "palatal", "approximant"],
         "g": ["voiced", "velar", "plosive"],
     },
-    "parameters": {"absolute_open": False,},
+    "parameters": {"p": True},
     "phonetic_rules": {
         "min_vcluster": 1,
         "max_vcluster": 1,
         "min_ccluster": 1,
         "max_ccluster": 2,
+        "consonants": {"c": None},
+        "vowels": {"v": None},
     },
 }
 if __name__ == "__main__":
     try:
         from Paths import porl_path
         from JsonTools import JsonTools
-    except ImportError:
+    except ImportError as e:
         from .Paths import porl_path
         from .JsonTools import JsonTools
+
+        print(e)
     finally:
         from sys import argv
 
