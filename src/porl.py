@@ -36,19 +36,19 @@ porl_data = {
 }
 if __name__ == "__main__":
     try:
-        from .Paths import porl_path
-        from .JsonTools import JsonTools
-    except ImportError:
         from Paths import porl_path
         from JsonTools import JsonTools
-    from sys import argv
+    except ImportError:
+        from .Paths import porl_path
+        from .JsonTools import JsonTools
+    finally:
+        from sys import argv
 
-    save = JsonTools.save
-    dest = porl_path
-    obj = porl_data
-
-    if "-save" in argv[:]:
-        save(dest=dest, obj=obj)
-        print(f"saved: dest = {dest} ; obj = {obj}")
-    else:
-        print("testmsg")
+        save = JsonTools.save
+        dest = porl_path
+        obj = porl_data
+        if "-save" in argv[:]:
+            save(dest=dest, obj=obj)
+            print(f"saved an object to dest ({dest})")
+        else:
+            print("not saved; you can save by putting -save when run this file")
