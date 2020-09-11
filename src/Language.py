@@ -45,34 +45,34 @@ class Language:
         )
 
     @property
-    def c_symbols(self):
+    def c_symbols(self) -> list:
         s = set()
         for x in self.__consonants.keys():
             for y in x:
                 s.add(y)
-        return s
+        return list(s)
 
     @property
-    def c_features(self):
+    def c_features(self) -> list:
         s = set()
         for x in self.__consonants.values():
             for y in x:
                 s.add(y)
-        return s
+        return list(s)
 
     @property
-    def v_symbols(self):
+    def v_symbols(self) -> list:
         s = set()
         for x in self.__vowels.keys():
             for y in x:
                 s.add(y)
-        return s
+        return list(s)
 
     @property
-    def v_features(self):
+    def v_features(self) -> list:
         s = set()
         for x in self.__vowels.values():
             for y in x:
                 s.add(y)
-        return s
+        return list(s)
 
