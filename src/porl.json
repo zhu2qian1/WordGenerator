@@ -125,12 +125,18 @@
         ]
     },
     "parameters": {
-        "absolute_open": false
+        "p": true
     },
     "phonetic_rules": {
         "min_vcluster": 1,
         "max_vcluster": 1,
         "min_ccluster": 1,
-        "max_ccluster": 2
+        "max_ccluster": 2,
+        "consonants": {
+            "c": null
+        },
+        "vowels": {
+            "v": null
+        }
     }
 }
