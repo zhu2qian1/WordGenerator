@@ -43,3 +43,36 @@ class Language:
             self.__phonetic_rules["min_ccluster"],
             self.__phonetic_rules["max_ccluster"],
         )
+
+    @property
+    def c_symbols(self):
+        s = set()
+        for x in self.__consonants.keys():
+            for y in x:
+                s.add(y)
+        return s
+
+    @property
+    def c_features(self):
+        s = set()
+        for x in self.__consonants.values():
+            for y in x:
+                s.add(y)
+        return s
+
+    @property
+    def v_symbols(self):
+        s = set()
+        for x in self.__vowels.keys():
+            for y in x:
+                s.add(y)
+        return s
+
+    @property
+    def v_features(self):
+        s = set()
+        for x in self.__vowels.values():
+            for y in x:
+                s.add(y)
+        return s
+
