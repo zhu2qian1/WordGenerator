@@ -40,5 +40,14 @@
 		"body": [
 			"\"${1:symbol}\": [\"${2:voice}\", \"${3:place}\", \"${4:manner}\"],"
 		]
-	}
+	},
+	"class property": {
+		"scope": "python",
+		"prefix": "prpt",
+		"body": [
+			"@property",
+			"def ${0:name}(self):",
+			"    pass"
+		]
+	},
 }
