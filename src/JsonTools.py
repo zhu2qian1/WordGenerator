@@ -7,6 +7,7 @@ class JsonTools:
         dest: str - the path where the json file will be saved
         obj: object - the object to be saved"""
         import json
+
         with open(dest, "w") as f:
             json.dump(obj, f, indent=4)
 
@@ -16,5 +17,6 @@ class JsonTools:
 
         src: str - path to the source json file"""
         import json
+
         with open(src, "r") as f:
             return json.load(f)

@@ -1,13 +1,13 @@
 porl_data = {
     "vowels": {
         "a": ["vowel", "low", "center", "unrounded", "short"],
-        "aa": ["vowel", "low", "center", "unrounded", "long"],
+        "ā": ["vowel", "low", "center", "unrounded", "long"],
         "e": ["vowel", "mid", "front", "unrounded", "short"],
         "i": ["vowel", "high", "front", "unrounded", "short"],
-        "ii": ["vowel", "high", "front", "unrounded", "long"],
+        "ī": ["vowel", "high", "front", "unrounded", "long"],
         "o": ["vowel", "mid", "back", "rounded", "short"],
         "u": ["vowel", "high", "back", "rounded", "short"],
-        "uu": ["vowel", "high", "back", "rounded", "long"],
+        "ū": ["vowel", "high", "back", "rounded", "long"],
     },
     "consonants": {
         "": [None],
