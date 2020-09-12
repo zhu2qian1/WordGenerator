@@ -58,8 +58,11 @@
         ]
     },
     "consonants": {
-        "": [
-            null
+        "\u2019": [
+            "consonant",
+            "voiceless",
+            "glottal",
+            "plosive"
         ],
         "p": [
             "consonant",
@@ -146,9 +149,14 @@
             "plosive"
         ]
     },
-    "parameters": {
-        "p": true
-    },
+    "parameters": [
+        {
+            "Null_onset": false
+        },
+        {
+            "Null_coda": false
+        }
+    ],
     "phonetic_rules": {
         "min_vcluster": 1,
         "max_vcluster": 1,

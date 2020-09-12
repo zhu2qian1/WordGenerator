@@ -10,7 +10,7 @@ porl_data = {
         "ū": ["vowel", "high", "back", "rounded", "long"],
     },
     "consonants": {
-        "": [None],
+        "’": ["consonant", "voiceless", "glottal", "plosive"],
         "p": ["consonant", "voiceless", "bilabial", "plosive"],
         "t": ["consonant", "voiceless", "dental", "plosive"],
         "s": ["consonant", "voiceless", "dental", "fricative"],
@@ -26,7 +26,7 @@ porl_data = {
         "j": ["consonant", "voiced", "palatal", "approximant"],
         "g": ["consonant", "voiced", "velar", "plosive"],
     },
-    "parameters": {"p": True},
+    "parameters": [{"Null_onset": False}, {"Null_coda": False}],
     "phonetic_rules": {
         "min_vcluster": 1,
         "max_vcluster": 1,
@@ -42,7 +42,7 @@ if __name__ == "__main__":
         from .Paths import porl_path
         from .JsonTools import JsonTools
 
-        print("Caution: could not load from Paths:", e)
+        print(f"Caution {e}: could not load from Paths:")
     finally:
         from sys import argv
 
