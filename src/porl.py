@@ -1,30 +1,30 @@
 porl_data = {
     "vowels": {
-        "a": ["low", "center", "unrounded", "short"],
-        "aa": ["low", "center", "unrounded", "long"],
-        "e": ["mid", "front", "unrounded", "short"],
-        "i": ["high", "front", "unrounded", "short"],
-        "ii": ["high", "front", "unrounded", "long"],
-        "o": ["mid", "back", "rounded", "short"],
-        "u": ["high", "back", "rounded", "short"],
-        "uu": ["high", "back", "rounded", "long"],
+        "a": ["vowel", "low", "center", "unrounded", "short"],
+        "aa": ["vowel", "low", "center", "unrounded", "long"],
+        "e": ["vowel", "mid", "front", "unrounded", "short"],
+        "i": ["vowel", "high", "front", "unrounded", "short"],
+        "ii": ["vowel", "high", "front", "unrounded", "long"],
+        "o": ["vowel", "mid", "back", "rounded", "short"],
+        "u": ["vowel", "high", "back", "rounded", "short"],
+        "uu": ["vowel", "high", "back", "rounded", "long"],
     },
     "consonants": {
         "": [None],
-        "p": ["voiceless", "bilabial", "plosive"],
-        "t": ["voiceless", "dental", "plosive"],
-        "s": ["voiceless", "dental", "fricative"],
-        "k": ["voiceless", "velar", "plosive"],
-        "h": ["voiceless", "glottal", "fricative"],
-        "b": ["voiced", "bilabial", "plosive"],
-        "w": ["voiced", "bilabial", "approximant"],
-        "m": ["voiced", "bilabial", "nasal"],
-        "d": ["voiced", "dental", "plosive"],
-        "n": ["voiced", "dental", "nasal"],
-        "r": ["voiced", "dental", "trill"],
-        "l": ["voiced", "dental", "lateral approximant"],
-        "j": ["voiced", "palatal", "approximant"],
-        "g": ["voiced", "velar", "plosive"],
+        "p": ["consonant", "voiceless", "bilabial", "plosive"],
+        "t": ["consonant", "voiceless", "dental", "plosive"],
+        "s": ["consonant", "voiceless", "dental", "fricative"],
+        "k": ["consonant", "voiceless", "velar", "plosive"],
+        "h": ["consonant", "voiceless", "glottal", "fricative"],
+        "b": ["consonant", "voiced", "bilabial", "plosive"],
+        "w": ["consonant", "voiced", "bilabial", "approximant"],
+        "m": ["consonant", "voiced", "bilabial", "nasal"],
+        "d": ["consonant", "voiced", "dental", "plosive"],
+        "n": ["consonant", "voiced", "dental", "nasal"],
+        "r": ["consonant", "voiced", "dental", "trill"],
+        "l": ["consonant", "voiced", "dental", "lateral approximant"],
+        "j": ["consonant", "voiced", "palatal", "approximant"],
+        "g": ["consonant", "voiced", "velar", "plosive"],
     },
     "parameters": {"p": True},
     "phonetic_rules": {
@@ -32,8 +32,6 @@ porl_data = {
         "max_vcluster": 1,
         "min_ccluster": 1,
         "max_ccluster": 2,
-        "consonants": {"c": None},
-        "vowels": {"v": None},
     },
 }
 if __name__ == "__main__":
@@ -44,7 +42,7 @@ if __name__ == "__main__":
         from .Paths import porl_path
         from .JsonTools import JsonTools
 
-        print(e)
+        print("Caution: could not load from Paths:", e)
     finally:
         from sys import argv
 

@@ -31,14 +31,14 @@
 		"scope": "python",
 		"prefix": "vtmp",
 		"body": [
-			"\"${1:symbol}\": [\"${2:height}\", \"${3:depth}\", \"${4:roundness}\"],"
+			"\"${1:symbol}\": [\"vowel\", \"${2:height}\", \"${3:depth}\", \"${4:roundness}\"],"
 		]
 	},
 	"consonant template": {
 		"scope": "python",
 		"prefix": "ctmp",
 		"body": [
-			"\"${1:symbol}\": [\"${2:voice}\", \"${3:place}\", \"${4:manner}\"],"
+			"\"${1:symbol}\": [\"consonant\", \"${2:voice}\", \"${3:place}\", \"${4:manner}\"],"
 		]
 	},
 	"class property": {

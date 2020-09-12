@@ -131,12 +131,6 @@
         "min_vcluster": 1,
         "max_vcluster": 1,
         "min_ccluster": 1,
-        "max_ccluster": 2,
-        "consonants": {
-            "c": null
-        },
-        "vowels": {
-            "v": null
-        }
+        "max_ccluster": 2
     }
 }
