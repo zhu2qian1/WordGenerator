@@ -6,6 +6,11 @@ from src.GenerateSyllable import GenerateSyllable as gs
 porl = lang(jt.load(porl_path))
 pgentor = gs(porl)
 ls = []
-for i in range(16):
-    ls.append(pgentor.phonetic_array())
-lswrittens = [i.written for i in ls]
+for i in range(64):
+    ls.append(pgentor.random_auto())
+
+ls2 = []
+for i in range(64):
+    ls2.append(pgentor.phonetic_array())
+
+lsw = [i.written for i in ls2]

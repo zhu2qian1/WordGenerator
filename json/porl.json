@@ -1,48 +1,56 @@
 {
     "vowels": {
         "a": [
+            "vowel",
             "low",
             "center",
             "unrounded",
             "short"
         ],
         "aa": [
+            "vowel",
             "low",
             "center",
             "unrounded",
             "long"
         ],
         "e": [
+            "vowel",
             "mid",
             "front",
             "unrounded",
             "short"
         ],
         "i": [
+            "vowel",
             "high",
             "front",
             "unrounded",
             "short"
         ],
         "ii": [
+            "vowel",
             "high",
             "front",
             "unrounded",
             "long"
         ],
         "o": [
+            "vowel",
             "mid",
             "back",
             "rounded",
             "short"
         ],
         "u": [
+            "vowel",
             "high",
             "back",
             "rounded",
             "short"
         ],
         "uu": [
+            "vowel",
             "high",
             "back",
             "rounded",
@@ -54,71 +62,85 @@
             null
         ],
         "p": [
+            "consonant",
             "voiceless",
             "bilabial",
             "plosive"
         ],
         "t": [
+            "consonant",
             "voiceless",
             "dental",
             "plosive"
         ],
         "s": [
+            "consonant",
             "voiceless",
             "dental",
             "fricative"
         ],
         "k": [
+            "consonant",
             "voiceless",
             "velar",
             "plosive"
         ],
         "h": [
+            "consonant",
             "voiceless",
             "glottal",
             "fricative"
         ],
         "b": [
+            "consonant",
             "voiced",
             "bilabial",
             "plosive"
         ],
         "w": [
+            "consonant",
             "voiced",
             "bilabial",
             "approximant"
         ],
         "m": [
+            "consonant",
             "voiced",
             "bilabial",
             "nasal"
         ],
         "d": [
+            "consonant",
             "voiced",
             "dental",
             "plosive"
         ],
         "n": [
+            "consonant",
             "voiced",
             "dental",
             "nasal"
         ],
         "r": [
+            "consonant",
             "voiced",
             "dental",
             "trill"
         ],
         "l": [
+            "consonant",
             "voiced",
             "dental",
             "lateral approximant"
         ],
         "j": [
+            "consonant",
             "voiced",
             "palatal",
             "approximant"
         ],
         "g": [
+            "consonant",
             "voiced",
             "velar",
             "plosive"
