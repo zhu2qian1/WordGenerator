@@ -12,5 +12,5 @@ Objectives:
 
 Todos:
 - develop a parser
-- involve a language's parameterinto the generation of words
+- involve a language's parameter into the generation of words
 - consider the process of generation of words and syllables
