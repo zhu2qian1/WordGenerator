@@ -2,5 +2,6 @@
     "python.autoComplete.extraPaths": [
         "src\\"
     ],
-    "python.envFile": ".env"
+    "python.envFile": ".env",
+    "python.pythonPath": "C:\\Python38\\python.exe"
 }
