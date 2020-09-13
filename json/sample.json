@@ -1,0 +1,62 @@
+{
+    "consonants": {
+        "p": [
+            1,
+            "consonant",
+            "voiceless",
+            "bilabial",
+            "plosive"
+        ],
+        "t": [
+            1,
+            "consonant",
+            "voiceless",
+            "dental",
+            "plosive"
+        ],
+        "k": [
+            1,
+            "consonant",
+            "voiceless",
+            "velar",
+            "plosive"
+        ]
+    },
+    "vowels": {
+        "a": [
+            1,
+            "vowel",
+            "low",
+            "center",
+            "unrounded"
+        ],
+        "i": [
+            1,
+            "vowel",
+            "high",
+            "front",
+            "unrounded"
+        ],
+        "u": [
+            1,
+            "vowel",
+            "high",
+            "back",
+            "rounded"
+        ]
+    },
+    "phonetic_rules": {
+        "vcluster": [
+            1,
+            1
+        ],
+        "ccluster": [
+            1,
+            2
+        ]
+    },
+    "parameters": {
+        "null_onset": true,
+        "null_coda": true
+    }
+}

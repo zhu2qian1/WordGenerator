@@ -50,4 +50,11 @@
 			"    pass"
 		]
 	},
+	"phonetic_rules": {
+		"scope": "python",
+		"prefix": "pholes",
+		"body": [
+			"\"phonetic_rules\": {\"vcluster\": [${1:vmin}, ${2:vmax}], \"ccluster\": [${3:cmin}, ${4:cmax}],},"
+		]
+	}
 }
