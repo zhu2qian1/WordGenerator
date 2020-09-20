@@ -9,21 +9,22 @@ class DictLikeList:
 
     def __repr__(self) -> str:
         return repr([self.__keys, self.__values])
-    
+
     @property
     def keys(self) -> list:
         return self.__keys
-    
+
     @property
     def values(self) -> list:
         return self.__values
-    
+
     def add(self, key, value) -> None:
         assert type(key) is str
         self.__keys.append(key)
-        self.__values.append(value) 
+        self.__values.append(value)
+
 
 dll = DictLikeList
 a = ["a", "b"]
-b=[1,2]
-c={"c": 3, "d":4}
+b = [1, 2]
+c = {"c": 3, "d": 4}
